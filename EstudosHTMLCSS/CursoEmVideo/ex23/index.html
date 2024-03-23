@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+        *{
+          font-family: 'Courier New', Courier, monospace;
+          font-size: large;  
+         
+
+        }
+        body{
+            background-image: url(imagens/wallpaper004.jpg);
+
+        }
+        div.quadrado{
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            background-color: lightgray;
+            float: left;
+            text-align: center;
+            
+        }
+        div.quadrado2 {
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            float: left;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+        div#q1{
+            background-image: linear-gradient(to left,skyblue,gray);
+
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom,yellow,red);
+            color: blue;
+
+        }
+        div#q3{
+            background-image: url(imagens/pattern003.png);
+            color: rgb(255, 0, 0);
+
+        }
+        div#q4{
+            border: 2px solid black;
+            width: 150px;
+            height: 250px;
+            background-color: lightgray;
+        }
+        div#q4 > h1,p,a {
+            font-weight: bold;
+        }
+        div > p {
+            color: rgb(0, 0, 0);
+        }
+        div > p:hover {
+            background-color: blueviolet;
+        }
+        section {
+            display: inline-block;
+
+        }
+        div#q5 {
+            background-color: bisque;
+            width: 600px;
+            height: 600px;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+        <h1>Bloco 1</h1>
+        <p>LEUELUELULEU</p>
+        
+    </div>
+    <div class="quadrado" id="q2">
+        <h1>Bloco 2</h1>
+        <p>LEUELUELULEU</p>
+        </div>
+    <div class="quadrado" id="q3">
+        <h1>TESTANDO</h1>
+        <img src="imagens/the-office-michael-scott.gif" alt="" height="210px" width="200px" >
+         </div><br>
+    <section>
+    <div id="q4" class="quadrado2">
+        <h1>Outras paginas</h1>
+        <a href="https://leozinhoc592.github.io/html-css/Exercicios/Desafio16/index.html">Link de outra pagina</a>
+    </div>
+    <div class="quadrado2">
+        <h1>Ed Motta doidão fazendo rave</h1>
+        <iframe width="302" height="315" src="https://www.youtube.com/embed/aSokgJTLhkk?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div class="quadrado2" id="q5">
+        <h1>Testando FLOAT LEFT</h1>
+        <img src="imagens/dancing-cat-6.gif" alt=""><br>
+        <p>GIF de gato dançando aleatorio para testar</p>
+    </div>
+    </section>
+
+    
+</body>
+</html>

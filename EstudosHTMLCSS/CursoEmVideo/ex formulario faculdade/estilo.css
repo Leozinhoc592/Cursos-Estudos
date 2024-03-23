@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+div{
+    border: 1 solid gray;
+    margin: 5px;
+    padding: 5px;
+}
+#a{background-color: aquamarine;}
+#b{
+    background-color: coral;
+    float:left;
+    width: 230px;
+    margin-top:0;
+}
+#c{
+    background-color: darkcyan;
+    margin-left: 252px;
+    margin-right: 252px;
+}
+#d{
+    background-color: darksalmon;
+    float:right;
+    width: 230px;
+    margin-top:0;
+}
+#e{
+    background-color: darkseagreen;
+    text-align:center;
+    clear:both;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 16</title>
+    <style>
+            @font-face {
+                font-family: 'love';
+                src: url('idroid.otf') format('opentype');
+                
+    
+            }
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .fontebizarra{
+                font-family: 'love';
+                color: rgb(3, 95, 3);
+            }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+
+        header {
+            background: linear-gradient(#33c771,#185221);
+            min-height: 150px;
+            box-shadow: black 30px 1px 1px;
+            padding-top: 40px;
+        }
+
+        header > h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            padding: 10px;
+            background-color: #0c5329;
+            
+        }
+
+        header > p {
+            text-align: center;
+            color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            max-width: 600px;
+            margin: auto;
+            font-size: 1.2em;
+        }
+
+        nav > a {
+            color: #b4d4c2;
+            text-decoration: none;
+            font-weight: bold;  
+            padding: 10px; 
+            border-radius: 5px;
+            transition-duration: 1s;
+        }
+        
+        nav > a:hover {
+            background-color: #33c771;
+        }
+        main{
+            background-color: white;
+            margin:auto;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow:2px 0 6px -4px black, -2px 0 6px -4px black;
+            min-width: 300px;
+            max-width: 1000px;
+
+            
+        }
+        main img {
+            width: 100%;
+
+        }
+        main > p > a {
+            color: #47a755;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        main > h3 {
+            background: linear-gradient(to right,#7cce9e,white); 
+        }
+
+        aside {
+            background-color: #33c771;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        aside > h4 {
+            background-color: #24582c;
+            padding: 5px;
+            color: white;
+            margin: -10px -10px 0px -10px;
+        }
+
+        aside > ul {
+                list-style-position: inside;
+                columns: 2;
+                list-style-type: "\2714";
+            }
+
+        footer {
+            background-color: #82a787;
+            color: white;
+            text-align: center;
+            font-size: 0.8em;
+            padding: 5px;
+        }
+        footer a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+
+.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+p {
+    margin: 15px 0px;
+}
+        
+
+    </style>
+</head>
+<header>
+    <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+    <p>Tudo aquilo que você quis saber sobre o mundo tech,em um unico lugar</p>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="">Noticias</a>
+    <a href="">Curiosidades</a>
+    <a href="">Fale Conosco</a>
+</nav>
+<main>
+    <h2 class="fontebizarra">HISTORIA DO MASCOTE DO ANDROID</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam cupiditate et adipisci eveniet, aliquam voluptates fugit obcaecati incidunt sed nesciunt, optio expedita ea dolorum cumque sit? Incidunt, non asperiores. Ratione ab rerum excepturi beatae. Accusamus explicabo eos minus alias enim.</p>
+
+    <h3 class="fontebizarra">A PRIMEIRA VERSÃO</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quasi architecto? Sunt earum consequuntur eveniet eligendi unde blanditiis dicta consectetur, a totam quibusdam quasi quia harum quae ea porro maxime.</p>
+    <picture>
+        <source media="(max-width: 670px)" srcset="imagens/dan-droids-pq.png">
+    <img src="imagens/dan-droids.png" alt="" class="imacen">
+    </picture>
+    
+    <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador,seriam os Dandroids</p>
+    <h3 class="fontebizarra">SURGE UM NOVO MASCOTE</h3>
+    <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da area. A ilustradora Russa <a href="">Irina Blok</a>, tambem funcionaria do Google, ficou com a missão de representar o pequeno robó de uma maneira mais agradável</p>
+    <picture>
+        <source media="(max-width: 670px)" srcset="imagens/irina-blok-pq.jpg">
+    <img src="imagens/irina-blok.jpg" alt="">
+    </picture>
+    <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho tambem deveria gerar identificação rapida com quem o olha. Surgiu então o <a href="">Bugdroid</a>, o novo mascote do Android</p>
+    <img src="imagens/bugdroid.png" alt="" class="pequena">
+    <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritorio do Google e olhou para o lado dos banheiros e a indetificação foi imediata:simples,limpo,objetivo</p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n5WND12zkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <aside><h4>Quer aprender mais?</h4>
+    <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce,em ordem alfabetica a partir da versão 1.5 até a 9.0</p>
+    <ul>
+    
+        <li>
+            1.5 - <abbr title="Bolo de copo"> Cupcake</abbr>
+        </li>
+
+        <li>
+            1.6 - <abbr title="Rosquinha"> Donut</abbr>
+        </li>
+
+        <li>
+            3.0 - <abbr title="Bomba"> Eclair</abbr>
+        </li>
+
+        <li>
+            2.2 - <abbr title="Iorgute Congelado"> Froyo</abbr>
+        </li>
+
+        <li>
+            2.3 - <abbr title="Biscoito de gengibre"> Gingerbread</abbr>
+        </li>
+
+        <li>
+            3.0 - <abbr title="Favo de mel"> Honeycomb</abbr>
+        </li>
+
+        <li>
+            4.0 - <abbr title="Sanduiche de Sorvete"> Ice Cream Sandwich</abbr>
+        </li>
+
+        <li>
+            4.1 - <abbr title="Jujuba"> Jelly Bean</abbr>
+        </li>
+
+        <li>
+            4.4 - <abbr title="Kitkat"> KitKat</abbr>
+        </li>
+
+        <li>
+            5.0 - <abbr title="Pirulito"> Lolipop</abbr>
+        </li>
+
+        <li>
+            6.0 - <abbr title="Marshmallow"> Marshmallow</abbr>
+        </li>
+
+        <li>
+            7.0 - <abbr title="Torrone"> Nougat</abbr>
+        </li>
+
+        <li>
+            8.0 - <abbr title="Oreo"> Oreo</abbr>
+        </li>
+
+        <li>
+            9.0 - <abbr title="Torta"> Pie</abbr>
+        </li>
+
+    </ul>
+  </aside>
+
+</main>
+<footer>
+    <p>Reproduzido por Leo no exercicio do guanabara</p>
+
+</footer>
+<body>
+    
+</body>
+</html>
