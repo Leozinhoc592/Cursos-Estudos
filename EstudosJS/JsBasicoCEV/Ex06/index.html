@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Eventos</title>
+    <style>
+        div#area {
+            font: normal 20pt Arial;
+            background-color: aquamarine;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+        body {
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()"><p>interaja....</p></div>
+    <img src="" alt="">
+    <script>
+        var c = window.document.getElementById('area')
+        function clicar(){
+            c.innerText = 'Clicou!'
+            c.style.background = 'red'
+        }
+        function entrou(){
+            c.innerText = 'Entrou"'
+            c.style.background = 'white'
+        }
+        function saiu(){
+            c.innerText = 'Saiu'
+            c.style.background = 'gray'
+        }
+
+    </script>
+</body>
+</html>

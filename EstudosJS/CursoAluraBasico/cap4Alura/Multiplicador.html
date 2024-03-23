@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function pulaLinha(){
+	
+		document.write("<br>");
+		document.write("<br>");
+		
+		}
+	function mostra(frase) {
+	
+		document.write(frase);
+		pulaLinha();
+		}
+		escolha = parseInt(prompt("Escolha um numero"));
+		var multiplicador = 0;
+		while(multiplicador < 11){
+			mostra(escolha * multiplicador);
+			multiplicador += 1;
+		}
+</script>

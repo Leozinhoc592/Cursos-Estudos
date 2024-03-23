@@ -1,0 +1,29 @@
+	<script>
+	
+	function pulaLinha() {
+		
+		document.write("<br>");
+		document.write("<br>");
+	}
+	
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+	
+	var vitorias = parseInt(prompt("Entre com o número de vitorias."));
+	var empates = parseInt(prompt("Entre com o número de empates."));
+	var pontos = (vitorias * 3) + empates;
+	mostra("Seu time fez"+pontos);
+	
+	if(pontos > 10){
+	mostra("Seu time fez menos ponto");
+	}
+	if(pontos <10){
+	mostra("Seu time fez mais pontos")
+	}
+	if(pontos==10){
+	mostra("Seu time manteve a mesma quantia de pontos")
+	}
+	</script>
+	

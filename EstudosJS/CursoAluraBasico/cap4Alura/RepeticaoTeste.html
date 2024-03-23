@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function pulalinha() {	
+	document.write("<br>");
+	}
+	
+	function mostra(frase) {
+	document.write(frase);
+	pulalinha();
+	}
+var anocopa = 1993;
+var limite = prompt("Entre com a data limite");
+while(anocopa <= limite) {
+    mostra("Teve copa em " + anocopa);
+    anocopa = anocopa + 4;
+}
+
+mostra("FIM");
+</script>

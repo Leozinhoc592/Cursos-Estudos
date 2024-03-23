@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body.escuro{
+            background-color: rgb(17, 17, 17);
+            color: white;
+        }
+        body.claro{
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel">Km/h
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+    <div id="res1"></div>
+    <input type="button" value="TemaEscuro" onclick="clicoues()">
+    <input type="button" value="TemaClaro" onclick="clicoucl()">
+
+<script>
+    function verificar() {
+        var txtv = window.document.getElementById('txtvel')
+        var rest = window.document.getElementById('res')
+        var rest1 = window.document.getElementById('res1')
+        var vel = Number(txtv.value)
+        rest.innerHTML = `<p>Sua velocidade atual é de ${vel}Km/h</p>`
+            if (vel > 100) {
+                rest1.innerHTML = `O limite de velocidade era de <strong>100Km/h</strong> e voce atingiu <strong>${vel}Km/h</strong>,voce foi multado`
+            }else{
+                rest1.innerHTML = "Nada de incomum,tenha um bom dia"
+            }
+        
+    }
+    function clicoues(){
+        document.body.className ="escuro"
+    }
+    function clicoucl(){
+        document.body.className ="claro"
+    }
+</script>
+    
+</body>
+</html>
